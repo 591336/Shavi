@@ -136,6 +136,7 @@
     
     .container .card {
         position: relative;
+        margin: 10px;
     }
     
     .container .card .face {
