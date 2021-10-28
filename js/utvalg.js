@@ -1,47 +1,47 @@
 //@ts-check
 
 function setup() {
-    let btnBilder1 = document.getElementById("bilder1");
-    let btnBilder2 = document.getElementById("bilder2");
-    let btnBilder3 = document.getElementById("bilder3");
-    let imgPic11 = document.getElementById("pic11");
-    let imgPic12 = document.getElementById("pic12");
-    let imgPic13 = document.getElementById("pic13");
-    let imgPic21 = document.getElementById("pic21");
-    let imgPic22 = document.getElementById("pic22");
-    let imgPic23 = document.getElementById("pic23");
-    let imgPic31 = document.getElementById("pic31");
-    let imgPic32 = document.getElementById("pic32");
-    let imgPic33 = document.getElementById("pic33");
+    let btnBilder1 = document.getElementById("bildeknapp1");
+    let btnBilder2 = document.getElementById("bildeknapp2");
+    let imgBilder1 = document.getElementById("bilder1");
+    let imgBilder2 = document.getElementById("bilder2");
+    let imgBilder3 = document.getElementById("bilder3");
+    let imgBilder4 = document.getElementById("bilder4");
+    let imgBilder5 = document.getElementById("bilder5");
+    let imgBilder6 = document.getElementById("bilder6");
 
-    btnBilder1.addEventListener("click", visBidler1);
-    btnBilder2.addEventListener("click", visBidler2);
-    btnBilder3.addEventListener("click", visBidler3);
 
-    function visBidler1() {
+    btnBilder1.addEventListener("click", visBilder1);
+    btnBilder2.addEventListener("click", visBilder2);
+
+    function visBilder1() {
         // @ts-ignore
-        imgPic11.style.opacity = 1;
+        imgBilder1.style.opacity = 1;
         // @ts-ignore
-        imgPic12.style.opacity = 1;
+        imgBilder4.style.opacity = 0;
         // @ts-ignore
-        imgPic13.style.opacity = 1;
+        imgBilder2.style.opacity = 1;
+        // @ts-ignore
+        imgBilder5.style.opacity = 0;
+        // @ts-ignore
+        imgBilder3.style.opacity = 1;
+        // @ts-ignore
+        imgBilder6.style.opacity = 0;
     }
 
-    function visBidler2() {
+    function visBilder2() {
         // @ts-ignore
-        imgPic21.style.opacity = 1;
+        imgBilder4.style.opacity = 1;
         // @ts-ignore
-        imgPic22.style.opacity = 1;
+        imgBilder1.style.opacity = 0;
         // @ts-ignore
-        imgPic23.style.opacity = 1;
+        imgBilder5.style.opacity = 1;
+        // @ts-ignore
+        imgBilder2.style.opacity = 0;
+        // @ts-ignore
+        imgBilder6.style.opacity = 1;
+        // @ts-ignore
+        imgBilder3.style.opacity = 0;
     }
 
-    function visBidler3() {
-        // @ts-ignore
-        imgPic31.style.opacity = 1;
-        // @ts-ignore
-        imgPic32.style.opacity = 1;
-        // @ts-ignore
-        imgPic33.style.opacity = 1;
-    }
 }

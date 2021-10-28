@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shavi</title>
-    <link rel="stylesheet" href="../css/shavi.css">
+    <link rel="stylesheet" href="../css/bestilling.css">
+    <script src="../js/bestilling.js"></script>
 </head>
 
 <body>
+
     <h1 id="overskrift">Shavi</h1>
 
 
@@ -27,3 +29,34 @@
         </div>
         <a id="login" href="../html/login.html">Login</a>
     </div>
+
+    <div id="select">
+        <select class="region" id="region:">
+            <option value="hide"> Region </option>
+            <option value="Vestland" rel="icon-temperature">Vestland</option>
+            <option value="Viken">Viken</option>
+        </select>
+
+        <select class="by" id="by:">
+            <option value="hide"> By </option>
+            <option value="Bergen" rel="icon-temperature">Bergen</option>
+            <option value="Bergen">Oslo</option>
+            <option value="Førde">Førde</option>
+        </select>
+
+        <select class="kjøretøy" id="kjøretøy:">
+            <option value="hide"> Kjøretøy </option>
+            <option value="Tesla" rel="icon-temperature">Tesla model 3</option>
+            <option value="Hydrolift">Hydrolift X-22</option>
+        </select>
+
+        <input class="dato" type="datetime-local">
+
+    </div>
+    <button id="bestill">Bestill</button>
+
+    <script>
+        setup();
+    </script>
+
+</body>
