@@ -130,7 +130,7 @@ img {
 .container .card .face {
   border-radius: 3px;
   width: 480px;
-  height: 200px;
+  height: 280px;
   transition: 0.5s;
 }
 
@@ -211,6 +211,7 @@ img {
 }
 
 #gal {
+  margin-top: 160px;
   width: 1000px;
   position: absolute;
   top: 450px;
