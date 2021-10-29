@@ -24,7 +24,6 @@ h1 {
     border: solid gray;
     width: 98%;
     height: 60px;
-    background-image: url(../bakgrunn.jpg) 100% no-repeat;
 }
 
 #intro {
@@ -142,6 +141,6 @@ footer {
     grid-gap: 600px;
 }
 
-#footer {
+#footer1, #footer2 {
     font-size: 16px;
-}
+  }

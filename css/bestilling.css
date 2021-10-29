@@ -123,7 +123,7 @@ h2 {
     margin-top: 40px;
     max-width: 380px;
     padding: 20px;
-    margin: 60 auto;
+    margin: 0px;
     background-color: whitesmoke;
     border: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 16px;
@@ -169,6 +169,13 @@ footer {
     grid-gap: 600px;
 }
 
-#footer {
+#takk {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 100px;color: green;
+    font-size: 20px;
+}
+
+#footer1, #footer2 {
     font-size: 16px;
 }

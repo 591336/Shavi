@@ -145,6 +145,6 @@ footer {
   grid-gap: 600px;
 }
 
-#footer {
+#footer1, #footer2 {
   font-size: 16px;
 }
