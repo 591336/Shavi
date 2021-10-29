@@ -23,7 +23,6 @@ h1 {
   border: solid gray;
   width: 98%;
   height: 60px;
-  background-image: url(../bakgrunn.jpg) 100% no-repeat;
 }
 
 #intro {
@@ -32,12 +31,6 @@ h1 {
   margin: auto;
   width: auto;
   border: solid gray;
-}
-
-img {
-  display: inline;
-  height: 300px;
-  width: auto;
 }
 
 #login {
@@ -121,8 +114,8 @@ img {
   padding: 20px;
   color: white;
   text-align: center;
-  width: 400px;
-  padding: 50px 300px 50px;
+  width: 700px;
+  padding: 50px 200px 50px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -142,4 +135,16 @@ header {
 
 p {
   font-size: 22px;
+}
+
+footer {
+  background-color: lightgreen;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  grid-gap: 600px;
+}
+
+#footer {
+  font-size: 16px;
 }

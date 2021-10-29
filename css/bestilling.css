@@ -157,3 +157,18 @@ h2 {
     font-size: 14px;
     padding: 10px;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    grid-gap: 600px;
+}
+
+#footer {
+    font-size: 16px;
+}

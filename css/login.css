@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
 }
 
 #overskrift {
@@ -105,7 +106,6 @@ img {
     display: block;
 }
 
-
 .wrapper {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -118,13 +118,30 @@ img {
     background-color: whitesmoke;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-    input[type="text"] {
-        margin-bottom: -1px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    input[type="password"] {
-        margin-bottom: 20px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    grid-gap: 600px;
+}
+
+#footer {
+    font-size: 16px;
+}

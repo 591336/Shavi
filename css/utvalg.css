@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: max-content;
 }
 
 #overskrift {
@@ -220,6 +221,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   outline: none;
+  padding-bottom: 20px;
 }
 
 .pic {
@@ -274,4 +276,23 @@ h3 {
 
 h4 {
   margin-right: 10px;
+}
+
+.ol{
+  position: absolute;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+footer {
+  background-color: lightgreen;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  grid-gap: 600px;
+  margin-bottom: 10px;
+}
+
+#footer {
+  font-size: 16px;
 }
