@@ -111,23 +111,19 @@ img {
 }
 
 .form-signin {
+    justify-content: center;
     max-width: 380px;
-    padding: 15px 35px 45px;
-    margin: 0 auto;
+    padding: 25px 35px 15px;
+    margin: auto;
     background-color: whitesmoke;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"] {
-    margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-input[type="password"] {
-    margin-bottom: 20px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+input {
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -135,7 +131,6 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: lightgreen;
-    text-align: justify;
     display: flex;
     justify-content: center;
     grid-gap: 600px;

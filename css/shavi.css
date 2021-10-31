@@ -139,7 +139,6 @@ p {
 
 footer {
   background-color: lightgreen;
-  text-align: justify;
   display: flex;
   justify-content: center;
   grid-gap: 600px;
